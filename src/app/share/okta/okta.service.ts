@@ -12,7 +12,8 @@ export class OktaService {
       // Change this to cliendID
       clientId: '0oadl20womDlx2aY00h7',
       // Set this to the uri of your app
-      redirectUri: 'http://localhost:4200',
+      // redirectUri: 'http://localhost:4200',
+      redirectUri: 'https://pages.codehub.esri.com/IST-NPM/ng5-okta-widget/',
       authParams: {
         issuer: 'default'
       }
