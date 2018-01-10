@@ -1,6 +1,9 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
+// Services
+import { OktaService } from './share/okta/okta.service';
+
 import { AppComponent } from './app.component';
 
 @NgModule({
@@ -10,7 +13,7 @@ import { AppComponent } from './app.component';
   imports: [
     BrowserModule
   ],
-  providers: [],
+  providers: [OktaService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
