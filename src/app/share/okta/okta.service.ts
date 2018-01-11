@@ -13,7 +13,7 @@ export class OktaService {
       clientId: '0oadl20womDlx2aY00h7',
       // Set this to the uri of your app
       // redirectUri: 'http://localhost:4200',
-      redirectUri: 'https://ixshel.me/ng5-okta-widget/',
+      redirectUri: 'http://ixshel.me/okta-widget-angular5/',
       authParams: {
         issuer: 'default'
       }
