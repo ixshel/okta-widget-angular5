@@ -1,9 +1,9 @@
 # OktaSignIn
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.2.4. You can try it in: `https://pages.codehub.esri.com/IST-NPM/ng5-okta-widget/` the user is: `test@esri.com` and the password is `Password12`
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.2.4. You can try it in: `http://ixshel.me/okta-widget-angular5/` the user is: `user@test.com` and the password is `Password12`
 
 In development needs tobe changed:
-`baseUrl` to esri.okta.com
+`baseUrl` to yours
 `clientId` to the Client ID provided from esri okta account
 `redirectUri` that should be the domain you are going to be using if you want to run it local just change it to `localhost:4200` 
 
